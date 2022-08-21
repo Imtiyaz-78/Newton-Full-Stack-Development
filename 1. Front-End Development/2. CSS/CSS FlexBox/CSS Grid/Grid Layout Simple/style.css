@@ -1,3 +1,10 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
 .container {
     background-color: red;
     height: 700px;
@@ -15,20 +22,34 @@
     /* OR  */
 
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 115px 1fr 1fr;
+    grid-template-rows: 115px 1fr 43px;
 
 
     row-gap: 12px;
     column-gap: 12px;
+    place-items: center;
   
 }
 
 .item {
     background-color: aqua;
-    /* width: 122px;
-    height: 122px; */
+    width: 122px;
+    height: 122px;
+   
 }
+
 .item1{
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    /* aap iske badle ye bhi karsaktey hai  */
+    grid-column: 1 / span 3;
+    background-color: greenyellow;
+    width: 100%;
+}
+
+.footer{
     grid-column-start: 1;
     grid-column-end: 4;
+    background-color: darkgreen;
+    width: 100%;
 }
