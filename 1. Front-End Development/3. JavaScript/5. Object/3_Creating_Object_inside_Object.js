@@ -13,6 +13,6 @@ const collection = {
         phoneNumber: 3333434
     }
 };
-console.log(collection.fullName);           // output ---> akash
-console.log(collection.address.doorNo);     // output ---> 12
-console.log(collection.address.phoneNumber);// output ---> 3333434
+console.log(collection.fullName);            // output ---> akash
+console.log(collection.address.doorNo);      // output ---> 12
+console.log(collection.address.phoneNumber); // output ---> 3333434

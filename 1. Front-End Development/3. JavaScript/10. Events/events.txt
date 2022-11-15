@@ -11,7 +11,7 @@
     4.onselect - once you select the element it will trigger an event.
 
     Event:
-    //any user actions either keyboard press on mouse action event will get trigger so that we can call the function for DOM manipulation
+    // Any user actions either keyboard press or mouse action event will get trigger so that we can call the function for DOM manipulation
     1.onblur - input
     2.onchange - input 
     3.onsubmit - form
@@ -32,12 +32,12 @@
     //all event will return event object
     ===============================================
     Event Listener:
-    //We are going to attach event to some of the element.
-    //whenever we target that particular element event listener will capture it and it will trigger a callback function.
+    ---> We are going to attach event to some of the element.
+    ---> whenever we target that particular element event listener will capture it and it will trigger a callback function.
     ==================================================
     first class function
-    //passing function as parameter is called first class function 
-    //Inside the event listener we have two parameters first is event name and second one you can pass function as parameter so whenever it onvoke the particular event the function parameter will call the actual function.
+    ---> passing function as parameter is called first class function 
+    ---> Inside the event listener we have two parameters first is event name and second one you can pass function as parameter so whenever it onvoke the particular event the function parameter will call the actual function.
     //please don't pass parenthesis for function parameter otherwise it will onvoke immediately
     ======================================
     1.how to take input from user?

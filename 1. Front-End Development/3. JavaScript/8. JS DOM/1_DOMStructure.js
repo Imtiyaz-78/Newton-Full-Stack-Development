@@ -1,6 +1,7 @@
 
 
 // node 1_DOMStructure.js
+// JavaScript DOM Manipulation
 
 <html>
     <head>
