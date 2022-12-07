@@ -3,8 +3,12 @@
   <head>
     <title>setTimeOuts and Closures InterView Question</title>
   </head>
+
   <body>
-    <h1>setTimeOuts and Closures</h1>
+    <h1>
+      setTimeOuts :- The setTimeout() method executes a block of code after the
+      specified time and it takes callback function as a parameter
+    </h1>
 
     <script>
       function first() {
@@ -12,9 +16,21 @@
         setTimeout(function () {
           console.log(i);
         }, 3000);
-        console.log("Hey Dear");
+        console.log("This is setTimeout");
       }
       first();
+
+      // Example 2
+      function second(){
+        for (let i = 1; i <= 5; i++){
+          setTimeout(function (){
+            console.log(i);
+          }, i * 1000);
+        }
+
+        console.log("Example of setTimeout");
+      }
+      second()
     </script>
   </body>
 </html>
