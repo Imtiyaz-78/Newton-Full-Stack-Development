@@ -1,0 +1,10 @@
+
+---------------> Extension 
+1. Better Comments
+2. Bracket pair Colorization Togller
+3. ES7+React/Redux/react-native Snippets
+4. GitLens- Git superchanged
+5. Pretier- code formater
+6. vscode-icons
+7. 
+ 

@@ -5,6 +5,7 @@
 // The splice() method adds new items to an array.
 // They are also use for removing elemenet from the array
 // Using splice() to Remove Elements
+// This modify the original Array
 
 
 var list = [45,78,34,12,77];
